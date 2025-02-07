@@ -45,6 +45,16 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Red Heart on the Envelope */
+.heart {
+    font-size: 50px;
+    color: red;
+    transition: opacity 0.4s ease-in-out;
 }
 
 /* Letter Inside */
