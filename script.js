@@ -4,5 +4,7 @@ function openEnvelope() {
     document.querySelector('.letter').style.transform = "translateY(0px)";
     
     // Hide the heart when the envelope is opened
-    document.querySelector('.heart').style.opacity = "0";
+    setTimeout(() => {
+        document.querySelector('.heart').style.opacity = "0";
+    }, 300); // Delay for smoother effect
 }
